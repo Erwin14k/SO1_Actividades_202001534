@@ -34,4 +34,9 @@ En un sistema operativo, el modo de usuario y el modo de kernel son dos modos di
 - ***Modo de kernel:*** en este modo, el código ejecutado tiene acceso completo a todos los recursos del sistema, incluyendo la memoria, los dispositivos de entrada/salida, etc. El kernel es el código que se ejecuta en este modo y es responsable de gestionar los recursos del sistema y proporcionar una interfaz para los programas.
 La transición entre el modo de usuario y el modo de kernel se realiza mediante una interrupción o una llamada del sistema. Los programas en el modo de usuario pueden solicitar servicios del kernel mediante llamadas del sistema, que causan una interrupción y una transición temporal al modo de kernel para que el kernel pueda proporcionar el servicio solicitado. Después de proporcionar el servicio, el kernel regresa al modo de usuario.
 
+<div align="center">
+<img align="center" width="342" height="246" src="https://github.com/Erwin14k/SO1_Actividades_202001534/blob/main/Assets/1200px-Priv_rings.svg.webp">
+</div>
+
+
 La existencia de estos dos modos ayuda a proteger el sistema operativo y los recursos del sistema de errores y fallos en los programas de usuario, ya que estos no tienen acceso directo a los recursos del sistema.
