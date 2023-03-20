@@ -1,0 +1,9 @@
+[Unit]
+Description=Salutation and current date
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /home/Erwin14k/Desktop/script.sh
+
+[Install]
+WantedBy=multi-user.target
